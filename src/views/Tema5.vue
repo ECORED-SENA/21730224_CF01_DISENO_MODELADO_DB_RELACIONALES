@@ -8,7 +8,7 @@
         h1 Ingeniería de #[i software] relacional: metodología de transformación lógica y herramientas CASE
       .row.justify-content-center.align-items-center.mb-0
         .col-xl.mb-4.mb-lg-0
-          p Una vez finalizado el modelo conceptual mediante el Modelo Entidad-Relación Extendido (MERE), el siguiente paso consiste en transformarlo en una estructura que pueda implementarse en un Sistema de Gestión de Bases de Datos (SGBD). Esta etapa corresponde al #[b diseño lógico], cuyo propósito es convertir los elementos del modelo conceptual en tablas, columnas, claves y restricciones propias del modelo relacional.
+          p Una vez finalizado el modelo conceptual mediante el modelo entidad-relación extendido (MERE), el siguiente paso consiste en transformarlo en una estructura que pueda implementarse en un sistema de gestión de bases de datos (SGBD). Esta etapa corresponde al #[b diseño lógico], cuyo propósito es convertir los elementos del modelo conceptual en tablas, columnas, claves y restricciones propias del modelo relacional.
           .caja-4.color-6(data-aos="fade-right").mb-3
             .row
               .col-xl-auto.d-none.d-xl-block(data-aos="zoom-in")
@@ -41,7 +41,7 @@
         .col-xl
           AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
             .row(titulo="Relación (tabla)").ajuste-cajaAcordion.ajuste-vineta
-              p.mb-3 Es una estructura bidimensional organizada en filas y columnas que almacena información de una misma entidad. En el modelo relacional, el término #[b relación] equivale a una tabla y no debe confundirse con las relaciones del Modelo Entidad-Relación (MER), las cuales representan asociaciones entre entidades.
+              p.mb-3 Es una estructura bidimensional organizada en filas y columnas que almacena información de una misma entidad. En el modelo relacional, el término #[b relación] equivale a una tabla y no debe confundirse con las relaciones del modelo entidad-relación (MER), las cuales representan asociaciones entre entidades.
             .row(titulo="Tupla (fila o registro)").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Corresponde a cada una de las filas de una tabla. Cada tupla representa una instancia específica de la entidad almacenada.
             .row(titulo="Atributo (columna o campo)").ajuste-cajaAcordion.ajuste-vineta
@@ -129,7 +129,7 @@
               p.mb-0 La aplicación correcta de estas reglas permite transformar el modelo conceptual en un esquema relacional consistente y preparado para su implementación en un SGBD. Además, facilita la preservación de la integridad de los datos y garantiza que las relaciones definidas durante el análisis del negocio se mantengan durante la construcción de la base de datos.
       Separador
       #t_5_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 5.3 Criterios de selección e Ingeniería de #[i Software] Asistida por Computadora (Herramientas CASE)
+        h2 5.3 Criterios de selección e ingeniería de #[i software] asistida por computadora (Herramientas CASE)
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .caja-4.color-6(data-aos="fade-right").mb-3
@@ -202,7 +202,7 @@
                         img(src='@/assets/curso/temas/t5/img18.png', alt='' style="max-width: 500px").m-auto
                     .col-xl-6
                       h4 Oracle SQL Developer Data Modeler
-                      p.mb-0 Herramienta gratuita desarrollada por Oracle para el diseño de bases de datos. Permite crear modelos conceptuales, lógicos y físicos, además de realizar ingeniería hacia adelante e ingeniería inversa sobre diferentes Sistemas de Gestión de Bases de Datos.
+                      p.mb-0 Herramienta gratuita desarrollada por Oracle para el diseño de bases de datos. Permite crear modelos conceptuales, lógicos y físicos, además de realizar ingeniería hacia adelante e ingeniería inversa sobre diferentes sistemas de gestión de bases de datos.
       p.mb-5 La incorporación de herramientas CASE en el proceso de diseño contribuye a mejorar la calidad de los modelos de datos, reducir errores durante la implementación y optimizar la documentación técnica del proyecto. Asimismo, facilita el trabajo colaborativo entre los diferentes integrantes del equipo de desarrollo y favorece la construcción de bases de datos consistentes, mantenibles y alineadas con las necesidades de la organización.
       .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
         h5 Figura 12.

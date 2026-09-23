@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Planificación y modelado conceptual y lógico de estructuras de datos',
     Description:
-      'Este componente capacita al aprendiz en la ingeniería de datos inicial, abarcando desde la gestión del proyecto hasta la transformación relacional. Mediante la estructuración de planes de trabajo y el dominio del Modelo Entidad-Relación y esquemas lógicos, el estudiante resolverá problemas del entorno productivo, garantizando que las estructuras tecnológicas diseñadas respondan fielmente a los requerimientos y reglas del negocio corporativo.  ',
+      'Este componente capacita al aprendiz en la ingeniería de datos inicial, abarcando desde la gestión del proyecto hasta la transformación relacional. Mediante la estructuración de planes de trabajo y el dominio del modelo entidad-relación y esquemas lógicos, el estudiante resolverá problemas del entorno productivo, garantizando que las estructuras tecnológicas diseñadas respondan fielmente a los requerimientos y reglas del negocio corporativo.  ',
     imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
@@ -101,7 +101,7 @@ export default {
         nombreRuta: 'tema3',
         numero: '3',
         titulo:
-          'Modelado conceptual de datos: componentes esenciales del Modelo Entidad-Relación (MER)',
+          'Modelado conceptual de datos: componentes esenciales del modelo entidad-relación (MER)',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -210,7 +210,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/221730224_CF01_DU.pdf',
+        download: 'downloads/21730224_CF01_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -227,86 +227,106 @@ export default {
   glosario: [
     {
       termino: 'Atributos',
-      significado: 'Propiedades descriptivas de una entidad o relación que poseen una semántica y un valor específico para cada instancia de la misma.'
+      significado:
+        'Propiedades descriptivas de una entidad o relación que poseen una semántica y un valor específico para cada instancia de la misma.',
     },
     {
       termino: 'Clave primaria (PK)',
-      significado: 'Identificador único y obligatorio seleccionado por el diseñador para asegurar que cada instancia de una entidad sea distinguible de todas las demás.'
+      significado:
+        'Identificador único y obligatorio seleccionado por el diseñador para asegurar que cada instancia de una entidad sea distinguible de todas las demás.',
     },
     {
       termino: 'DBA',
-      significado: 'Siglas de Database Administrator (Administrador de Bases de Datos), perfil profesional responsable de la gestión, mantenimiento y configuración técnica de los sistemas de datos.'
+      significado:
+        'Siglas de Database Administrator (Administrador de Bases de Datos), perfil profesional responsable de la gestión, mantenimiento y configuración técnica de los sistemas de datos.',
     },
     {
       termino: 'Entidad',
-      significado: 'Cualquier objeto, persona, lugar, concepto o evento del mundo real que posee una existencia independiente y sobre el cual la organización necesita almacenar información.'
+      significado:
+        'Cualquier objeto, persona, lugar, concepto o evento del mundo real que posee una existencia independiente y sobre el cual la organización necesita almacenar información.',
     },
     {
       termino: 'Esquema de BD',
-      significado: 'Descripción formal y global de la estructura lógica de la base de datos, que actúa como el esqueleto analítico del sistema.'
+      significado:
+        'Descripción formal y global de la estructura lógica de la base de datos, que actúa como el esqueleto analítico del sistema.',
     },
     {
       termino: 'Herramientas CASE',
-      significado: 'Soluciones de software especializado (Computer-Aided Software Engineering) que automatizan la diagramación, transformación lógica y generación de código de bases de datos.'
+      significado:
+        'Soluciones de <i>software</i> especializado (<i>Computer-Aided Software Engineering</i>) que automatizan la diagramación, transformación lógica y generación de código de bases de datos.',
     },
     {
       termino: 'Llave foránea (FK)',
-      significado: 'Mecanismo de integridad referencial donde la clave primaria de una tabla se replica en otra para establecer un vínculo lógico entre ambas estructuras.'
+      significado:
+        'Mecanismo de integridad referencial donde la clave primaria de una tabla se replica en otra para establecer un vínculo lógico entre ambas estructuras.',
     },
     {
       termino: 'Metadatos',
-      significado: 'Definidos estrictamente como datos acerca de los datos; son las descripciones lógicas de la estructura almacenadas en el catálogo o diccionario de datos del sistema.'
+      significado:
+        'Definidos estrictamente como datos acerca de los datos; son las descripciones lógicas de la estructura almacenadas en el catálogo o diccionario de datos del sistema.',
     },
     {
       termino: 'Propiedades ACID',
-      significado: 'Estándar de robustez transaccional que garantiza la invulnerabilidad de la información mediante la Atomicidad, Consistencia, Aislamiento y Durabilidad.'
+      significado:
+        'Estándar de robustez transaccional que garantiza la invulnerabilidad de la información mediante la Atomicidad, Consistencia, Aislamiento y Durabilidad.',
     },
     {
       termino: 'Script',
-      significado: 'Conjunto de instrucciones estructuradas en lenguaje SQL (generalmente DDL) generado de forma automatizada para crear tablas, claves y restricciones en un motor de base de datos.'
+      significado:
+        'Conjunto de instrucciones estructuradas en lenguaje SQL (generalmente DDL) generado de forma automatizada para crear tablas, claves y restricciones en un motor de base de datos.',
     },
     {
       termino: 'SGBD',
-      significado: '<i>Software</i> de alta ingeniería que actúa como interfaz entre la base de datos física, los usuarios y las aplicaciones, centralizando la administración y seguridad de los datos.'
+      significado:
+        '<i>software</i> de alta ingeniería que actúa como interfaz entre la base de datos física, los usuarios y las aplicaciones, centralizando la administración y seguridad de los datos.',
     },
     {
       termino: 'Triggers',
-      significado: 'Denominados también disparadores, son reglas de verificación estricta que se implementan para impedir la corrupción de la lógica del negocio ante acciones específicas.'
+      significado:
+        'Denominados también disparadores, son reglas de verificación estricta que se implementan para impedir la corrupción de la lógica del negocio ante acciones específicas.',
     },
     {
       termino: 'Tupla de información',
-      significado: 'Constituye cada una de las filas individuales (registros) que componen una relación o tabla, representando una ocurrencia o instancia particular de los datos.'
-    }
+      significado:
+        'Constituye cada una de las filas individuales (registros) que componen una relación o tabla, representando una ocurrencia o instancia particular de los datos.',
+    },
   ],
   referencias: [
     {
-      referencia: 'CEPETEL. (2023). Introducción a bases de datos y programación SQL.',
-      link: 'https://www.cepetel.org.ar/wp-content/uploads/2024/02/Introduccion-a-Bases-de-Datos-y-Programacion-SQL.pdf'
+      referencia:
+        'CEPETEL. (2023). Introducción a bases de datos y programación SQL.',
+      link: 'https://www.cepetel.org.ar/wp-content/uploads/2024/02/Introduccion-a-Bases-de-Datos-y-Programacion-SQL.pdf',
     },
     {
-      referencia: 'Camps Paré, R., Casillas Santillán, L., Costal Costa, D., Ginestà, M., Martín Escofet, C., & Pérez Mora, O. (2024). Software libre. Universitat Oberta de Catalunya.',
-      link: 'https://www.uoc.edu/pdf/masters/oficiales/img/913.pdf'
+      referencia:
+        'Camps Paré, R., Casillas Santillán, L., Costal Costa, D., Ginestà, M., Martín Escofet, C., & Pérez Mora, O. (2024). Software libre. Universitat Oberta de Catalunya.',
+      link: 'https://www.uoc.edu/pdf/masters/oficiales/img/913.pdf',
     },
     {
-      referencia: 'Casas Roma, J. (2013). Introducción al diseño de bases de datos. Universitat Oberta de Catalunya.',
-      link: 'https://gc.scalahed.com/recursos/files/r161r/w25213w/M1CDN112_S1_Introduccion_al_diseno_de_bases.pdf'
+      referencia:
+        'Casas Roma, J. (2013). Introducción al diseño de bases de datos. Universitat Oberta de Catalunya.',
+      link: 'https://gc.scalahed.com/recursos/files/r161r/w25213w/M1CDN112_S1_Introduccion_al_diseno_de_bases.pdf',
     },
     {
-      referencia: 'Dalmasso, C. (2022). Introducción a las bases de datos. Escuela Superior de Comercio, Universidad Nacional de Rosario.',
-      link: 'https://esupcom.unr.edu.ar/bv_tics/archivos/informacion_complementaria/ofimatica/base_datos.pdf'
+      referencia:
+        'Dalmasso, C. (2022). Introducción a las bases de datos. Escuela Superior de Comercio, Universidad Nacional de Rosario.',
+      link: 'https://esupcom.unr.edu.ar/bv_tics/archivos/informacion_complementaria/ofimatica/base_datos.pdf',
     },
     {
-      referencia: 'Marqués, M. (2011). Bases de datos. Departament d’Enginyeria i Ciència dels Computadors, Universitat Jaume I.',
-      link: ''
+      referencia:
+        'Marqués, M. (2011). Bases de datos. Departament d’Enginyeria i Ciència dels Computadors, Universitat Jaume I.',
+      link: '',
     },
     {
-      referencia: 'SIPECOM. (2026, 12 de enero). Bases de datos: El gran salto de los archivos físicos a la nube inteligente.',
-      link: 'https://sipecom.com/2026/01/12/bases-de-datos-el-gran-salto-de-los-archivos-fisicos-a-la-nube-inteligente/'
+      referencia:
+        'SIPECOM. (2026, 12 de enero). Bases de datos: El gran salto de los archivos físicos a la nube inteligente.',
+      link: 'https://sipecom.com/2026/01/12/bases-de-datos-el-gran-salto-de-los-archivos-fisicos-a-la-nube-inteligente/',
     },
     {
-      referencia: 'Torregrosa García, B. (2020). Modelos de datos. Universitat Oberta de Catalunya.',
-      link: 'https://openaccess.uoc.edu/server/api/core/bitstreams/cd624356-d7bd-4022-888f-e2324ee440aa/content'
-    }
+      referencia:
+        'Torregrosa García, B. (2020). Modelos de datos. Universitat Oberta de Catalunya.',
+      link: 'https://openaccess.uoc.edu/server/api/core/bitstreams/cd624356-d7bd-4022-888f-e2324ee440aa/content',
+    },
   ],
   creditos: [
     {
@@ -315,7 +335,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06 - Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+            'Profesional G06 - Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -403,14 +423,13 @@ export default {
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
-        },        
+        },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
-
       ],
     },
   ],

@@ -126,7 +126,7 @@
       Separador
       #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.3 Emergencia del paradigma de bases de datos y conceptualización de los SGBD
-      p.mb-5 Con el propósito de superar las limitaciones del sistema tradicional de archivos, la ingeniería de software dio paso al paradigma de las #[b bases de datos (BD)]. Una base de datos se define como una colección integrada, estructurada y compartida de datos lógicamente relacionados, acompañada de una descripción de dichos datos, denominada #[b metadatos], diseñada para satisfacer las necesidades de información de una organización.
+      p.mb-5 Con el propósito de superar las limitaciones del sistema tradicional de archivos, la ingeniería de #[i software] dio paso al paradigma de las #[b bases de datos (BD)]. Una base de datos se define como una colección integrada, estructurada y compartida de datos lógicamente relacionados, acompañada de una descripción de dichos datos, denominada #[b metadatos], diseñada para satisfacer las necesidades de información de una organización.
       .bg-4
         .px-5
           .row.justify-content-center.align-items-center.mb-5
@@ -286,7 +286,7 @@
           .row.align-items-center
             .col-xl-6.order-2
               h4 Durabilidad
-              p.mb-0 Establece que, una vez confirmada una transacción mediante la operación #[i commit], los cambios realizados se vuelven permanentes. Incluso si ocurre una falla del #[i hardware], una interrupción del suministro eléctrico o un error del sistema operativo, el SGBD recupera la información utilizando el log transaccional, lo que garantiza que los datos confirmados no se pierdan.
+              p.mb-0 Establece que, una vez confirmada una transacción mediante la operación #[i commit], los cambios realizados se vuelven permanentes. Incluso si ocurre una falla del #[i hardware], una interrupción del suministro eléctrico o un error del sistema operativo, el SGBD recupera la información utilizando el #[i log] transaccional, lo que garantiza que los datos confirmados no se pierdan.
             .col-lg-6.mb-4.mb-lg-0.order-1
               figure
                 img(src='@/assets/curso/temas/t1/img33.png', alt="" style="max-width: 450px").m-auto

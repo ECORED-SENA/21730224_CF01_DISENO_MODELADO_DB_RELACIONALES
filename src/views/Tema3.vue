@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 3
-        h1 Modelado conceptual de datos: componentes esenciales del Modelo Entidad-Relación (MER)
+        h1 Modelado conceptual de datos: componentes esenciales del modelo entidad-relación (MER)
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .caja-2(data-aos="fade-right")
@@ -15,10 +15,10 @@
             img(src='@/assets/curso/temas/t3/img1.png', alt='' style="width: 300px").m-auto
         .col-xl
           .caja-3.ajuste-3(data-aos="fade-left")
-            p.mb-0 El #[b Modelo Entidad-Relación (MER)], propuesto por #[b Peter Chen] en #[b 1976], es uno de los modelos conceptuales más utilizados para representar la información de una organización. Su propósito consiste en estructurar de manera gráfica los elementos que intervienen en un sistema de información, facilitando la comunicación entre los expertos del negocio y los diseñadores de bases de datos antes de iniciar el diseño lógico y físico.
+            p.mb-0 El #[b modelo entidad-relación (MER)], propuesto por #[b Peter Chen] en #[b 1976], es uno de los modelos conceptuales más utilizados para representar la información de una organización. Su propósito consiste en estructurar de manera gráfica los elementos que intervienen en un sistema de información, facilitando la comunicación entre los expertos del negocio y los diseñadores de bases de datos antes de iniciar el diseño lógico y físico.
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 3.1 Teoría de conjuntos y conceptualización de entidades fuertes y débiles
-      p.mb-5 A continuación, se presenta un video sobre el concepto de entidad en el modelado conceptual, la diferencia entre entidad e instancia, y la clasificación de las entidades en fuertes y débiles, como elementos fundamentales para el diseño de bases de datos.
+      p.mb-5 A continuación, se presenta un video sobre el concepto de entidad en el modelado conceptual, la diferencia entre entidad e instancia y la clasificación de las entidades en fuertes y débiles, como elementos fundamentales para el diseño de bases de datos.
       figure(data-aos="zoom-in").mb-5
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/prB_JIrkerI?si=IoNKFbEo-iinEnb8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -28,7 +28,6 @@
         .tarjeta.color-acento-botones--borde.p-4(titulo="Entidad fuerte: cuenta bancaria")
           .row.align-items-center
             .col-lg.order-1.mb-4.mb-lg-0
-              h4 Entidad fuerte: cuenta bancaria
               p.mb-0 Puede identificarse mediante un número de cuenta único y existe de forma independiente dentro del sistema financiero.
             .col-lg-auto.order-2
               figure
@@ -36,7 +35,6 @@
         .tarjeta.color-acento-botones--borde.p-4(titulo="Entidad débil: movimiento")
           .row.align-items-center
             .col-lg.order-1.mb-4.mb-lg-0
-              h4 Entidad débil: movimiento
               p.mb-0 Representa operaciones como depósitos, retiros o transferencias. Su identificación depende de la cuenta bancaria a la que pertenece, ya que un movimiento no tiene significado si no está asociado a una cuenta específica.
             .col-lg-auto.order-2
               figure
@@ -60,7 +58,7 @@
                     figure
                       img(src='@/assets/curso/temas/t1/img3.svg', alt='' style="width: 70px").m-auto
                   .col-xl
-                    p.mb-0 Una entidad adquiere significado dentro del Modelo Entidad-Relación (MER) cuando se describe mediante #[b atributos], los cuales representan las características que permiten identificarla y registrar la información necesaria para el funcionamiento de la organización. Cada atributo almacena un dato específico asociado a una instancia de la entidad y contribuye a representar la realidad del negocio de manera precisa.
+                    p.mb-0 Una entidad adquiere significado dentro del modelo entidad-relación (MER) cuando se describe mediante #[b atributos], los cuales representan las características que permiten identificarla y registrar la información necesaria para el funcionamiento de la organización. Cada atributo almacena un dato específico asociado a una instancia de la entidad y contribuye a representar la realidad del negocio de manera precisa.
               p.mb-0 La correcta identificación y clasificación de los atributos permite construir modelos conceptuales más completos, facilita la transformación al modelo lógico y reduce problemas relacionados con la redundancia, la pérdida de información y las dificultades durante las consultas.  De acuerdo con su estructura y comportamiento, los atributos pueden clasificarse de la siguiente manera.
             .col-xl-auto.col-md-9(data-aos="fade-left")
               figure

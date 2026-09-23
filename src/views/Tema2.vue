@@ -145,7 +145,7 @@
         .px-5
           .row.justify-content-center.align-items-center.mb-0
             .col-xl.mb-4.mb-lg-0
-              p La relación de dependencia entre las actividades determina el orden en que deben ejecutarse las tareas del proyecto. Por ejemplo, la actividad #[b A3] depende de la finalización de la actividad #[b A2] mediante una relación #[b Final a Inicio]. Esto significa que el diseño del modelo lógico solo puede comenzar cuando el modelo conceptual ha sido elaborado, revisado y aprobado.
+              p La relación de dependencia entre las actividades determina el orden en que deben ejecutarse las tareas del proyecto. Por ejemplo, la actividad #[b A3] depende de la finalización de la actividad #[b A2] mediante una relación #[b final a inicio]. Esto significa que el diseño del modelo lógico solo puede comenzar cuando el modelo conceptual ha sido elaborado, revisado y aprobado.
               .caja-4.color-5(data-aos="fade-right")
                 .row
                   .col-xl-auto.d-none.d-xl-block(data-aos="zoom-in")
@@ -227,7 +227,7 @@
         h5 Figura 3.
         span Ejemplo Gantt en línea
       figure(data-aos="zoom-in").mb-5
-        img(src='@/assets/curso/temas/t2/img22.png', alt='Diagrama Entidad-Relación que compara una entidad fuerte y una entidad débil mediante sus atributos, claves y relación de dependencia. El esquema resalta que la entidad débil requiere una entidad fuerte para su identificación dentro del modelo de datos. ').m-auto
+        img(src='@/assets/curso/temas/t2/img22.png', alt='Diagrama entidad-relación que compara una entidad fuerte y una entidad débil mediante sus atributos, claves y relación de dependencia. El esquema resalta que la entidad débil requiere una entidad fuerte para su identificación dentro del modelo de datos.').m-auto
       p.mb-5 Además de facilitar la programación de actividades, las herramientas de gestión de proyectos proporcionan indicadores que permiten controlar el avance del cronograma y anticipar posibles retrasos. Entre los conceptos más importantes para la planificación se encuentran la #[b holgura] y la #[b ruta crítica], ya que ambos permiten identificar las actividades que ofrecen flexibilidad y aquellas que determinan la duración total del proyecto.
       .bg-carrusel
         .px-5

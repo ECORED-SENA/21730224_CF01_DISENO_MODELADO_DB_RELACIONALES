@@ -15,7 +15,7 @@
             img(src='@/assets/curso/temas/t4/img1.png', alt='' style="width: 300px").m-auto
         .col-xl
           .caja-3.ajuste-1(data-aos="fade-left")
-            p.mb-0 El #[b Modelo Entidad-Relación Extendido (MERE)] amplía las capacidades del Modelo Entidad-Relación (MER) al incorporar conceptos como la generalización, la especialización, la agregación y otras abstracciones que facilitan la representación de escenarios más complejos. Estas extensiones permiten construir modelos conceptuales más cercanos a la realidad del negocio y simplifican su posterior transformación al modelo lógico.
+            p.mb-0 El #[b modelo entidad-relación extendido (MERE)] amplía las capacidades del modelo entidad-relación (MER) al incorporar conceptos como la generalización, la especialización, la agregación y otras abstracciones que facilitan la representación de escenarios más complejos. Estas extensiones permiten construir modelos conceptuales más cercanos a la realidad del negocio y simplifican su posterior transformación al modelo lógico.
       #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 4.1 El concepto de relación: grado, cardinalidad y restricciones de participación
       .bg-6
@@ -41,24 +41,24 @@
               .row.align-items-center
                 .col-xl-6.order-1.mb-4.mb-lg-0
                   h4 Unaria o recursiva
-                  p.mb-0 Una entidad se relaciona consigo misma. Por ejemplo, en la entidad #[b Empleado], la relación #[b Supervisa] permite representar que un empleado puede supervisar a otros empleados de la misma organización.
+                  p.mb-0 Una entidad se relaciona consigo misma. Por ejemplo, en la entidad #[b empleado], la relación #[b supervisa] permite representar que un empleado puede supervisar a otros empleados de la misma organización.
                 .col-lg-6.mb-4.mb-md-0.order-2
                   .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                     h5 Figura 4.
                     span Ejemplo relación recursiva (unaria) de supervisión
                   figure(data-aos="zoom-in")
-                    img(src='@/assets/curso/temas/t4/img3.png', alt='Diagrama Entidad-Relación que representa una relación recursiva en la que una misma entidad participa dos veces con diferentes roles. El ejemplo corresponde a empleados que supervisan a otros empleados dentro de una organización. ').m-auto
+                    img(src='@/assets/curso/temas/t4/img3.png', alt='Diagrama entidad-relación que representa una relación recursiva en la que una misma entidad participa dos veces con diferentes roles. El ejemplo corresponde a empleados que supervisan a otros empleados dentro de una organización. ').m-auto
             .py-4.py-md-5.p-5(titulo="Binaria" icono="@/assets/curso/temas/t1/img22.svg")
               .row.align-items-center
                 .col-xl-6.order-1.mb-4.mb-lg-0
                   h4 Binaria
-                  p.mb-0 Involucra exactamente dos entidades y constituye el tipo de relación más utilizado en el diseño de bases de datos. Un ejemplo es la relación entre las entidades #[b Cliente] y #[b Producto], donde un cliente realiza la compra de uno o varios productos.
+                  p.mb-0 Involucra exactamente dos entidades y constituye el tipo de relación más utilizado en el diseño de bases de datos. Un ejemplo es la relación entre las entidades #[b cliente] y #[b producto], donde un cliente realiza la compra de uno o varios productos.
                 .col-lg-6.mb-4.mb-md-0.order-2
                   .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                     h5 Figura 5.
                     span Ejemplo relación binaria entre cliente y producto
                   figure(data-aos="zoom-in")
-                    img(src='@/assets/curso/temas/t4/img4.png', alt='Diagrama Entidad-Relación que representa una relación binaria entre las entidades Cliente y Producto mediante una asociación de compra. Incluye las entidades, la relación y las cardinalidades que describen la interacción entre ambos elementos. ').m-auto
+                    img(src='@/assets/curso/temas/t4/img4.png', alt='Diagrama entidad-relación que representa una relación binaria entre las entidades cliente y producto mediante una asociación de compra. Incluye las entidades, la relación y las cardinalidades que describen la interacción entre ambos elementos.').m-auto
             .py-4.py-md-5.p-5(titulo="Ternaria o de grado superior" icono="@/assets/curso/temas/t1/img22.svg")
               .row.align-items-center
                 .col-xl-6.order-1.mb-4.mb-lg-0
@@ -69,7 +69,7 @@
                     h5 Figura 6.
                     span Ejemplo relación ternaria: inscripción
                   figure(data-aos="zoom-in")
-                    img(src='@/assets/curso/temas/t4/img5.png', alt='Diagrama Entidad-Relación que representa una relación ternaria entre tres entidades relacionadas mediante una única asociación. El esquema ilustra cómo una operación depende simultáneamente de los tres elementos participantes. ').m-auto
+                    img(src='@/assets/curso/temas/t4/img5.png', alt='Diagrama entidad-relación que representa una relación ternaria entre tres entidades relacionadas mediante una única asociación. El esquema ilustra cómo una operación depende simultáneamente de los tres elementos participantes. ').m-auto
       p.mb-5 La identificación correcta del grado de una relación permite representar con mayor precisión las reglas del negocio y facilita la construcción de modelos conceptuales consistentes. Esta información será determinante durante el diseño lógico, ya que influirá en la forma como las relaciones se transforman posteriormente en tablas y restricciones dentro de la base de datos.
       .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img35.png')
@@ -89,33 +89,33 @@
               .row.justify-content-center.align-items-center
                 .col-xl-6.mb-4
                   h4 Uno a uno (1:1)
-                  p.mb-0 Cada instancia de una entidad se relaciona con una única instancia de la otra entidad y viceversa. Un ejemplo es la relación entre #[b Instructor] y #[b Centro de formación], cuando cada centro es dirigido por un solo instructor y cada instructor dirige únicamente un centro.
+                  p.mb-0 Cada instancia de una entidad se relaciona con una única instancia de la otra entidad y viceversa. Un ejemplo es la relación entre #[b instructor] y #[b centro de formación], cuando cada centro es dirigido por un solo instructor y cada instructor dirige únicamente un centro.
                 .col-xl-6
                   .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                     h5 Figura 7.
                     span Ejemplo relación uno a uno (1:1)
                   figure(data-aos="zoom-in")
-                    img(src='@/assets/curso/temas/t4/img7.png', alt='Diagrama Entidad-Relación que ejemplifica una relación de cardinalidad uno a uno entre dos entidades. Cada registro de una entidad se asocia únicamente con un registro de la otra entidad. ').m-auto
+                    img(src='@/assets/curso/temas/t4/img7.png', alt='Diagrama entidad-relación que ejemplifica una relación de cardinalidad uno a uno entre dos entidades. Cada registro de una entidad se asocia únicamente con un registro de la otra entidad.').m-auto
               .row.justify-content-center.align-items-center
                 .col-xl-6.mb-4
                   h4 Uno a varios (1:N)
-                  p.mb-0 Una instancia de una entidad puede relacionarse con varias instancias de la otra, mientras que cada instancia de esta última solo puede asociarse con una de la primera. Por ejemplo, un #[b Grupo de formación] puede estar conformado por varios #[b Aprendices], pero cada aprendiz pertenece a un solo grupo.
+                  p.mb-0 Una instancia de una entidad puede relacionarse con varias instancias de la otra, mientras que cada instancia de esta última solo puede asociarse con una de la primera. Por ejemplo, un #[b grupo de formación] puede estar conformado por varios #[b aprendices], pero cada aprendiz pertenece a un solo grupo.
                 .col-xl-6
                   .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                     h5 Figura 8.
                     span Ejemplo relación uno a varios (1:N)
                   figure(data-aos="zoom-in")
-                    img(src='@/assets/curso/temas/t4/img8.png', alt='Diagrama Entidad-Relación que representa una relación de cardinalidad uno a varios. Un registro de la entidad principal puede asociarse con múltiples registros de la entidad relacionada, mientras que cada uno de estos pertenece a un solo registro principal. ').m-auto
+                    img(src='@/assets/curso/temas/t4/img8.png', alt='Diagrama entidad-relación que representa una relación de cardinalidad uno a varios. Un registro de la entidad principal puede asociarse con múltiples registros de la entidad relacionada, mientras que cada uno de estos pertenece a un solo registro principal.').m-auto
               .row.justify-content-center.align-items-center
                 .col-xl-6.mb-4
-                  h4 Varios a varios (N:M)
-                  p.mb-0 Varias instancias de una entidad pueden relacionarse con varias instancias de la otra. Por ejemplo, un #[b Aprendiz] puede desarrollar varios #[b Resultados de aprendizaje], y un mismo resultado puede estar asociado a diferentes aprendices. En este tipo de relación es común que existan atributos propios de la asociación, como la #[b calificación final], la #[b fecha de evaluación] o el #[b porcentaje de asistencia], los cuales describen la relación y no a las entidades de forma independiente.
+                  h4 Varios a varios (N:N)
+                  p.mb-0 Varias instancias de una entidad pueden relacionarse con varias instancias de la otra. Por ejemplo, un #[b aprendiz] puede desarrollar varios #[b resultados de aprendizaje], y un mismo resultado puede estar asociado a diferentes aprendices. En este tipo de relación es común que existan atributos propios de la asociación, como la #[b calificación final], la #[b fecha de evaluación] o el #[b porcentaje de asistencia], los cuales describen la relación y no a las entidades de forma independiente.
                 .col-xl-6
                   .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                     h5 Figura 9.
-                    span Ejemplo relación varios a varios (N:M)
+                    span Ejemplo relación varios a varios (N:N)
                   figure(data-aos="zoom-in")
-                    img(src='@/assets/curso/temas/t4/img9.png', alt='Diagrama Entidad-Relación que representa una relación de cardinalidad varios a varios entre dos entidades. Cada registro puede asociarse con múltiples registros de la otra entidad, generalmente mediante una entidad o tabla intermedia. ').m-auto
+                    img(src='@/assets/curso/temas/t4/img9.png', alt='Diagrama entidad-relación que representa una relación de cardinalidad varios a varios entre dos entidades. Cada registro puede asociarse con múltiples registros de la otra entidad, generalmente mediante una entidad o tabla intermedia.').m-auto
       .bg-2(data-aos="flip-up").mb-5
         .px-5
           .row.align-items-center
@@ -132,16 +132,14 @@
         .tarjeta.color-acento-botones--borde.p-4(titulo="Participación total u obligatoria")
           .row.align-items-center
             .col-lg.order-1.mb-4.mb-lg-0
-              h4 Participación total u obligatoria
-              p.mb-0 Todas las instancias de la entidad deben participar al menos una vez en la relación. La cardinalidad mínima es #[b 1.] Por ejemplo, todo #[b Envío] debe estar asociado obligatoriamente a un #[b Cliente] que realiza la solicitud.
+              p.mb-0 Todas las instancias de la entidad deben participar al menos una vez en la relación. La cardinalidad mínima es #[b 1.] Por ejemplo, todo #[b envío] debe estar asociado obligatoriamente a un #[b cliente] que realiza la solicitud.
             .col-lg-auto.order-2
               figure
                 img(src="@/assets/curso/temas/t4/img10.svg", alt="" style="max-width: 120px").m-auto
         .tarjeta.color-acento-botones--borde.p-4(titulo="Participación parcial u opcional")
           .row.align-items-center
             .col-lg.order-1.mb-4.mb-lg-0
-              h4 Participación parcial u opcional
-              p.mb-0 Las instancias de la entidad pueden participar o no en la relación. La cardinalidad mínima es #[b 0]. Por ejemplo, un #[b Cliente] puede estar registrado en el sistema sin haber realizado todavía ninguna #[b Compra].
+              p.mb-0 Las instancias de la entidad pueden participar o no en la relación. La cardinalidad mínima es #[b 0]. Por ejemplo, un #[b cliente] puede estar registrado en el sistema sin haber realizado todavía ninguna #[b compra].
             .col-lg-auto.order-2
               figure
                 img(src="@/assets/curso/temas/t4/img11.svg", alt="" style="max-width: 120px").m-auto
@@ -155,7 +153,7 @@
               p.mb-0 La definición de la cardinalidad y de las restricciones de participación permite representar con mayor precisión las reglas de negocio de una organización. Estos elementos sirven de base para construir modelos conceptuales consistentes y facilitan la implementación posterior de las relaciones y restricciones de integridad en la base de datos relacional.
       Separador
       #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 4.2 Extensiones del Modelo (MERE): jerarquías de generalización y especialización
+        h2 4.2 Extensiones del modelo (MERE): jerarquías de generalización y especialización
       .bg-6
         .px-5
           .row.justify-content-center.align-items-center.mb-5
@@ -201,14 +199,14 @@
                         img(src='@/assets/curso/temas/t4/img15.png', alt='' style="max-width: 500px").m-auto
                     .col-xl-6
                       h4 Disjunta (exclusiva)
-                      p.mb-0 Cada instancia de la superclase solo puede pertenecer a una única subclase. Por ejemplo, un #[b Vehículo] puede clasificarse como #[b Automóvil] o #[b Camión], pero no como ambos al mismo tiempo.
+                      p.mb-0 Cada instancia de la superclase solo puede pertenecer a una única subclase. Por ejemplo, un #[b vehículo] puede clasificarse como #[b automóvil] o #[b camión], pero no como ambos al mismo tiempo.
                   .row.justify-content-center.align-items-center
                     .col-xl-6.mb-4
                       figure
                         img(src='@/assets/curso/temas/t4/img16.png', alt='' style="max-width: 500px").m-auto
                     .col-xl-6
                       h4 Superpuesta (solapada)
-                      p.mb-0 Una misma instancia puede pertenecer simultáneamente a varias subclases. Por ejemplo, una #[b Persona] puede desempeñar al mismo tiempo los roles de #[b Estudiante] y #[b Empleado] dentro de una institución educativa.
+                      p.mb-0 Una misma instancia puede pertenecer simultáneamente a varias subclases. Por ejemplo, una #[b persona] puede desempeñar al mismo tiempo los roles de #[b estudiante] y #[b empleado] dentro de una institución educativa.
           p.mb-5 Las jerarquías también requieren definir si todas las instancias de la superclase deben pertenecer a alguna subclase.
           .row.justify-content-center.align-items-center.mb-5
             .col-xl-6.mb-4.mb-lg-0
@@ -238,8 +236,8 @@
           .row.justify-content-center.align-items-center.mb-5
             .col-xl.mb-4.mb-lg-0
               .caja-4.color-2.mb-3(data-aos="fade-right")
-                p.mb-0 En determinadas situaciones, las reglas de negocio requieren representar relaciones de mayor complejidad que no pueden modelarse únicamente mediante entidades y asociaciones tradicionales. Para estos casos, el Modelo Entidad-Relación Extendido incorpora mecanismos como la #[b agregación] y las #[b restricciones de exclusividad], los cuales permiten representar escenarios más cercanos a la realidad organizacional.
-              p La #[b agregación] consiste en tratar una relación existente entre dos entidades como si fuera una nueva entidad conceptual. Este mecanismo permite establecer nuevas relaciones sobre una asociación previamente definida, evitando estructuras excesivamente complejas y facilitando la representación de procesos empresariales. Por ejemplo, una relación entre las entidades #[b Empleado] y #[b Proyecto], denominada #[b Participa], puede convertirse en una unidad conceptual sobre la cual otra entidad, como #[b Auditoría], registre información relacionada con la participación de los empleados en cada proyecto.
+                p.mb-0 En determinadas situaciones, las reglas de negocio requieren representar relaciones de mayor complejidad que no pueden modelarse únicamente mediante entidades y asociaciones tradicionales. Para estos casos, el modelo entidad-relación extendido incorpora mecanismos como la #[b agregación] y las #[b restricciones de exclusividad], los cuales permiten representar escenarios más cercanos a la realidad organizacional.
+              p La #[b agregación] consiste en tratar una relación existente entre dos entidades como si fuera una nueva entidad conceptual. Este mecanismo permite establecer nuevas relaciones sobre una asociación previamente definida, evitando estructuras excesivamente complejas y facilitando la representación de procesos empresariales. Por ejemplo, una relación entre las entidades #[b empleado] y #[b proyecto], denominada #[b participa], puede convertirse en una unidad conceptual sobre la cual otra entidad, como #[b auditoría], registre información relacionada con la participación de los empleados en cada proyecto.
               p.mb-0 Por otra parte, las #[b restricciones de exclusividad] establecen reglas que limitan las relaciones que una entidad puede mantener simultáneamente con otras entidades. Estas restricciones garantizan que el modelo conceptual refleje correctamente las políticas y condiciones establecidas por la organización:
             .col-xl-auto.col-md-9(data-aos="fade-left")
               figure
@@ -261,13 +259,13 @@
                   figure
                     img(src='@/assets/curso/temas/t1/img7.png', alt='' style="width: 74px").m-auto
                 .col-xl.text-white
-                  p.mb-0 La utilización de estas extensiones amplía las capacidades del Modelo Entidad-Relación y permite representar estructuras organizacionales más complejas de forma clara y consistente. De esta manera, el modelo conceptual se convierte en una representación más precisa de las reglas de negocio y facilita la transición hacia las etapas posteriores del diseño de la base de datos.
+                  p.mb-0 La utilización de estas extensiones amplía las capacidades del modelo entidad-relación y permite representar estructuras organizacionales más complejas de forma clara y consistente. De esta manera, el modelo conceptual se convierte en una representación más precisa de las reglas de negocio y facilita la transición hacia las etapas posteriores del diseño de la base de datos.
       .bg-3
         .px-5
           .titulo-tercer-nivel.mb-5(data-aos="fade-right")
             img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/t1/img35.png')
             h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Caso de uso: estructuración avanzada del MERE para LogísticaExpress S. A.
-          p.mb-5 Para integrar los conceptos de generalización, especialización, agregación y restricciones de participación, considere el caso de #[b LogísticaExpress S. A.], una empresa dedicada al transporte de mercancías. Durante el levantamiento de requisitos se identificaron varias reglas de negocio que requieren el uso de las extensiones del Modelo Entidad-Relación Extendido (MERE) para representar adecuadamente la realidad operativa de la organización. Entre las principales reglas de negocio se encuentran las siguientes:
+          p.mb-5 Para integrar los conceptos de generalización, especialización, agregación y restricciones de participación, considere el caso de #[b LogísticaExpress S. A.], una empresa dedicada al transporte de mercancías. Durante el levantamiento de requisitos se identificaron varias reglas de negocio que requieren el uso de las extensiones del modelo entidad-relación extendido (MERE) para representar adecuadamente la realidad operativa de la organización. Entre las principales reglas de negocio se encuentran las siguientes:
           .row.justify-content-center.align-items-center.mb-5
             .col-xl.mb-4.mb-lg-0
               .caja-4.color-3.mb-3.ajuste-3(data-aos="fade-right")
@@ -302,16 +300,16 @@
                 tr.ajuste-color-tabla
                   td.ajuste-border-tabla.texto-left.text-weight-bold Clasificación de la flota de vehículos.
                   td.ajuste-border-tabla.texto-left Especialización total y disyunta
-                  td.texto-left La entidad Vehículo actúa como superclase, mientras que #[b Camión] y #[b Motocicleta] corresponden a subclases. Ambas heredan la clave primaria y los atributos comunes del vehículo, además de incorporar sus atributos específicos. La especialización es total porque todo vehículo debe pertenecer a una de las subclases, y es disyunta porque un vehículo no puede clasificarse simultáneamente como camión y motocicleta.
+                  td.texto-left La entidad Vehículo actúa como superclase, mientras que #[b camión] y #[b motocicleta] corresponden a subclases. Ambas heredan la clave primaria y los atributos comunes del vehículo, además de incorporar sus atributos específicos. La especialización es total porque todo vehículo debe pertenecer a una de las subclases, y es disyunta porque un vehículo no puede clasificarse simultáneamente como camión y motocicleta.
                 tr
                   td.ajuste-border-tabla.texto-left.text-weight-bold Asignación de conductores a vehículos.
-                  td.ajuste-border-tabla.texto-left Relación varios a varios (N:M)
-                  td.texto-left La relación #[b Conduce] vincula las entidades #[b Conductor] y #[b Vehículo]. Esta relación incorpora atributos propios, como #[b Fecha de asignación] y #[b Horas de conducción], los cuales describen la interacción entre ambas entidades y no pertenecen de forma independiente a ninguna de ellas.
+                  td.ajuste-border-tabla.texto-left Relación varios a varios (N:N)
+                  td.texto-left La relación #[b conduce] vincula las entidades #[b conductor] y #[b vehículo]. Esta relación incorpora atributos propios, como #[b fecha de asignación] y #[b horas de conducción], los cuales describen la interacción entre ambas entidades y no pertenecen de forma independiente a ninguna de ellas.
                 tr.ajuste-color-tabla
                   td.ajuste-border-tabla.texto-left.text-weight-bold Asignación de órdenes de servicio.
                   td.ajuste-border-tabla.texto-left Agregación
-                  td.texto-left La relación #[b Conduce], junto con las entidades #[b Conductor] y #[b Vehículo], se considera una unidad conceptual sobre la cual se establece la relación con la entidad #[b Orden de servicio]. De esta manera, cada orden queda asociada a la combinación específica de conductor y vehículo responsable del transporte, garantizando la trazabilidad de la operación.
-      p.mb-5 Este caso evidencia cómo las extensiones del Modelo Entidad-Relación Extendido permiten representar escenarios empresariales de mayor complejidad. La aplicación de la especialización, las relaciones de cardinalidad varios a varios y la agregación facilitan la construcción de modelos conceptuales más precisos, reducen la ambigüedad en las reglas de negocio y preparan la estructura de datos para su transformación al modelo lógico e implementación en un Sistema de Gestión de Bases de Datos (SGBD).
+                  td.texto-left La relación #[b conduce], junto con las entidades #[b conductor] y #[b vehículo], se considera una unidad conceptual sobre la cual se establece la relación con la entidad #[b orden de servicio]. De esta manera, cada orden queda asociada a la combinación específica de conductor y vehículo responsable del transporte, garantizando la trazabilidad de la operación.
+      p.mb-5 Este caso evidencia cómo las extensiones del modelo entidad-relación extendido permiten representar escenarios empresariales de mayor complejidad. La aplicación de la especialización, las relaciones de cardinalidad varios a varios y la agregación facilitan la construcción de modelos conceptuales más precisos, reducen la ambigüedad en las reglas de negocio y preparan la estructura de datos para su transformación al modelo lógico e implementación en un Sistema de Gestión de Bases de Datos (SGBD).
       .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
         h5 Figura 10.
         span Modelo E-R Extendido (MERE) del caso de uso
