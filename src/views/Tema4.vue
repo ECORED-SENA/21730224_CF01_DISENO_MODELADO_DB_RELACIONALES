@@ -164,7 +164,7 @@
                     figure
                       img(src='@/assets/curso/temas/t1/img3.svg', alt='' style="width: 70px").m-auto
                   .col-xl
-                    p.mb-0 En algunos sistemas de información, varias entidades comparten características comunes, pero también poseen atributos o comportamientos que las diferencian. En estos casos, el #[b Modelo Entidad-Relación Extendido (MERE)] incorpora mecanismos que permiten representar estas similitudes y diferencias sin duplicar información dentro del modelo conceptual.
+                    p.mb-0 En algunos sistemas de información, varias entidades comparten características comunes, pero también poseen atributos o comportamientos que las diferencian. En estos casos, el #[b modelo entidad-relación extendido (MERE)] incorpora mecanismos que permiten representar estas similitudes y diferencias sin duplicar información dentro del modelo conceptual.
               p.mb-0 Las principales extensiones utilizadas para este propósito son la #[b generalización] y la #[b especialización], las cuales organizan las entidades mediante jerarquías compuestas por una #[b superclase] y una o varias #[b subclases]: 
             .col-xl-auto.col-md-9(data-aos="fade-left")
               figure
@@ -314,7 +314,7 @@
         h5 Figura 10.
         span Modelo E-R Extendido (MERE) del caso de uso
       figure(data-aos="zoom-in").mb-0
-        img(src='@/assets/curso/temas/t4/img21.png', alt='Diagrama del Modelo Entidad-Relación Extendido que integra entidades, atributos, relaciones, cardinalidades, jerarquías de generalización y especialización, además de elementos de agregación utilizados para representar reglas de negocio complejas. ').m-auto
+        img(src='@/assets/curso/temas/t4/img21.png', alt='Diagrama del modelo entidad-relación extendido que integra entidades, atributos, relaciones, cardinalidades, jerarquías de generalización y especialización, además de elementos de agregación utilizados para representar reglas de negocio complejas. ').m-auto
 
 </template>
 

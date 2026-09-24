@@ -172,13 +172,13 @@ export default {
           {
             numero: '5.2',
             titulo:
-              'Reglas de transformación formal del MER/MERE al Modelo Relacional de tablas',
+              'Reglas de transformación formal del MER/MERE al modelo relacional de tablas',
             hash: 't_5_2',
           },
           {
             numero: '5.3',
             titulo:
-              'Criterios de selección e Ingeniería de <i>Software</i> Asistida por Computadora (Herramientas CASE)',
+              'Criterios de selección e ingeniería de <i>Software</i> asistida por computadora (Herramientas CASE)',
             hash: 't_5_3',
           },
         ],
@@ -210,7 +210,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/21730224_CF01_DU.pdf',
+        download: 'downloads/21730224_CF01_CFA.pdf',
       },
       {
         icono: 'fas fa-download',

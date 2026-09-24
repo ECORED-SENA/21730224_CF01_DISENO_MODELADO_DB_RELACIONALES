@@ -124,7 +124,7 @@
             tr
               td.ajuste-border-tabla.texto-left.text-weight-bold A2
               td.ajuste-border-tabla.texto-left Construcción del modelo conceptual
-              td.ajuste-border-tabla.texto-left Elaboración del Modelo Entidad-Relación (MER) o del Modelo Entidad-Relación Extendido (MERE), con base en los requisitos identificados durante la etapa anterior.
+              td.ajuste-border-tabla.texto-left Elaboración del modelo entidad-relación (MER) o del modelo entidad-relación extendido (MERE), con base en los requisitos identificados durante la etapa anterior.
               td.texto-left A1 (Final a Inicio)
             tr.ajuste-color-tabla
               td.ajuste-border-tabla.texto-left.text-weight-bold A3

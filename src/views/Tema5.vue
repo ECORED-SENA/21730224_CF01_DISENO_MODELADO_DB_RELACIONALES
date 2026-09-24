@@ -208,7 +208,7 @@
         h5 Figura 12.
         span Pantallazo de herramienta que mezcla utilidades visuales y consola de código integrado
       figure(data-aos="zoom-in")
-        img(src='@/assets/curso/temas/t5/img19.png', alt='Captura de pantalla de una herramienta CASE para el diseño de bases de datos que integra un editor gráfico de diagramas Entidad-Relación, un panel de navegación de objetos y una consola para la generación y edición de código SQL. ').m-auto
+        img(src='@/assets/curso/temas/t5/img19.png', alt='Captura de pantalla de una herramienta CASE para el diseño de bases de datos que integra un editor gráfico de diagramas entidad-relación, un panel de navegación de objetos y una consola para la generación y edición de código SQL.').m-auto
 
 </template>
 

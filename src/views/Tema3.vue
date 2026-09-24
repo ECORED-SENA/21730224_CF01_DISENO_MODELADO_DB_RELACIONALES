@@ -121,7 +121,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
           .caja-4.color-5.mb-3(data-aos="fade-right")
-            p.mb-0 En el Modelo Entidad-Relación (MER), cada instancia de una entidad debe poder identificarse de manera única para evitar duplicidades y garantizar la integridad de la información. Para lograrlo, el modelado conceptual emplea un conjunto de reglas conocidas como #[b teoría de claves], las cuales permiten establecer mecanismos de identificación que posteriormente serán implementados en el modelo lógico de la base de datos.
+            p.mb-0 En el modelo entidad-relación (MER), cada instancia de una entidad debe poder identificarse de manera única para evitar duplicidades y garantizar la integridad de la información. Para lograrlo, el modelado conceptual emplea un conjunto de reglas conocidas como #[b teoría de claves], las cuales permiten establecer mecanismos de identificación que posteriormente serán implementados en el modelo lógico de la base de datos.
           p.mb-0 La correcta selección de las claves facilita el control de la información, fortalece las relaciones entre las entidades y asegura que cada registro pueda diferenciarse de los demás. En el proceso de modelado conceptual se distinguen tres tipos principales de claves:
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
@@ -223,7 +223,7 @@
                     figure
                       img(src='@/assets/curso/temas/t1/img7.png', alt='' style="width: 74px").m-auto
                   .col-xl.text-white
-                    p.mb-0 Este ejemplo integra varios de los conceptos fundamentales del Modelo Entidad-Relación. La entidad #[b Paciente] corresponde a una entidad fuerte; el #[b Documento de identidad] actúa como clave primaria; la #[b Dirección de contacto] representa un atributo compuesto; los #[b Números telefónicos] corresponden a un atributo multivaluado; la #[b Edad] se modela como un atributo derivado, y el #[b Estado de afiliación] incorpora una restricción de dominio que limita los valores permitidos. En conjunto, estas decisiones contribuyen a construir un modelo conceptual consistente, preparado para su transformación al modelo lógico y a la implementación posterior de la base de datos.
+                    p.mb-0 Este ejemplo integra varios de los conceptos fundamentales del modelo entidad-relación. La entidad #[b Paciente] corresponde a una entidad fuerte; el #[b Documento de identidad] actúa como clave primaria; la #[b Dirección de contacto] representa un atributo compuesto; los #[b Números telefónicos] corresponden a un atributo multivaluado; la #[b Edad] se modela como un atributo derivado, y el #[b Estado de afiliación] incorpora una restricción de dominio que limita los valores permitidos. En conjunto, estas decisiones contribuyen a construir un modelo conceptual consistente, preparado para su transformación al modelo lógico y a la implementación posterior de la base de datos.
 
 </template>
 
